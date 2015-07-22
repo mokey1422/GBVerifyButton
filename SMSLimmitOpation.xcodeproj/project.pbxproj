@@ -1,0 +1,449 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		849580421B326B3200F4EFCE /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 849580411B326B3200F4EFCE /* main.m */; };
+		849580451B326B3200F4EFCE /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 849580441B326B3200F4EFCE /* AppDelegate.m */; };
+		849580481B326B3200F4EFCE /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 849580471B326B3200F4EFCE /* ViewController.m */; };
+		8495804B1B326B3200F4EFCE /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 849580491B326B3200F4EFCE /* Main.storyboard */; };
+		8495804D1B326B3200F4EFCE /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 8495804C1B326B3200F4EFCE /* Images.xcassets */; };
+		849580501B326B3200F4EFCE /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 8495804E1B326B3200F4EFCE /* LaunchScreen.xib */; };
+		8495805C1B326B3200F4EFCE /* SMSLimmitOpationTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 8495805B1B326B3200F4EFCE /* SMSLimmitOpationTests.m */; };
+		849580671B326C2C00F4EFCE /* ViewController1.m in Sources */ = {isa = PBXBuildFile; fileRef = 849580661B326C2C00F4EFCE /* ViewController1.m */; };
+		8495806A1B326EC300F4EFCE /* MyControl.m in Sources */ = {isa = PBXBuildFile; fileRef = 849580691B326EC300F4EFCE /* MyControl.m */; };
+		8495806D1B32955100F4EFCE /* GBverifyButton.m in Sources */ = {isa = PBXBuildFile; fileRef = 8495806C1B32955100F4EFCE /* GBverifyButton.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		849580561B326B3200F4EFCE /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 849580341B326B3200F4EFCE /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 8495803B1B326B3200F4EFCE;
+			remoteInfo = SMSLimmitOpation;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		8495803C1B326B3200F4EFCE /* SMSLimmitOpation.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SMSLimmitOpation.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		849580401B326B3200F4EFCE /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		849580411B326B3200F4EFCE /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		849580431B326B3200F4EFCE /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		849580441B326B3200F4EFCE /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		849580461B326B3200F4EFCE /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		849580471B326B3200F4EFCE /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		8495804A1B326B3200F4EFCE /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		8495804C1B326B3200F4EFCE /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		8495804F1B326B3200F4EFCE /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
+		849580551B326B3200F4EFCE /* SMSLimmitOpationTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SMSLimmitOpationTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		8495805A1B326B3200F4EFCE /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		8495805B1B326B3200F4EFCE /* SMSLimmitOpationTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SMSLimmitOpationTests.m; sourceTree = "<group>"; };
+		849580651B326C2C00F4EFCE /* ViewController1.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ViewController1.h; sourceTree = "<group>"; };
+		849580661B326C2C00F4EFCE /* ViewController1.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ViewController1.m; sourceTree = "<group>"; };
+		849580681B326EC300F4EFCE /* MyControl.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MyControl.h; sourceTree = "<group>"; };
+		849580691B326EC300F4EFCE /* MyControl.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MyControl.m; sourceTree = "<group>"; };
+		8495806B1B32955100F4EFCE /* GBverifyButton.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GBverifyButton.h; sourceTree = "<group>"; };
+		8495806C1B32955100F4EFCE /* GBverifyButton.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GBverifyButton.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		849580391B326B3200F4EFCE /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		849580521B326B3200F4EFCE /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		849580331B326B3200F4EFCE = {
+			isa = PBXGroup;
+			children = (
+				8495803E1B326B3200F4EFCE /* SMSLimmitOpation */,
+				849580581B326B3200F4EFCE /* SMSLimmitOpationTests */,
+				8495803D1B326B3200F4EFCE /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		8495803D1B326B3200F4EFCE /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				8495803C1B326B3200F4EFCE /* SMSLimmitOpation.app */,
+				849580551B326B3200F4EFCE /* SMSLimmitOpationTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		8495803E1B326B3200F4EFCE /* SMSLimmitOpation */ = {
+			isa = PBXGroup;
+			children = (
+				849580681B326EC300F4EFCE /* MyControl.h */,
+				849580691B326EC300F4EFCE /* MyControl.m */,
+				849580431B326B3200F4EFCE /* AppDelegate.h */,
+				849580441B326B3200F4EFCE /* AppDelegate.m */,
+				849580461B326B3200F4EFCE /* ViewController.h */,
+				849580471B326B3200F4EFCE /* ViewController.m */,
+				849580651B326C2C00F4EFCE /* ViewController1.h */,
+				849580661B326C2C00F4EFCE /* ViewController1.m */,
+				8495806B1B32955100F4EFCE /* GBverifyButton.h */,
+				8495806C1B32955100F4EFCE /* GBverifyButton.m */,
+				849580491B326B3200F4EFCE /* Main.storyboard */,
+				8495804C1B326B3200F4EFCE /* Images.xcassets */,
+				8495804E1B326B3200F4EFCE /* LaunchScreen.xib */,
+				8495803F1B326B3200F4EFCE /* Supporting Files */,
+			);
+			path = SMSLimmitOpation;
+			sourceTree = "<group>";
+		};
+		8495803F1B326B3200F4EFCE /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				849580401B326B3200F4EFCE /* Info.plist */,
+				849580411B326B3200F4EFCE /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		849580581B326B3200F4EFCE /* SMSLimmitOpationTests */ = {
+			isa = PBXGroup;
+			children = (
+				8495805B1B326B3200F4EFCE /* SMSLimmitOpationTests.m */,
+				849580591B326B3200F4EFCE /* Supporting Files */,
+			);
+			path = SMSLimmitOpationTests;
+			sourceTree = "<group>";
+		};
+		849580591B326B3200F4EFCE /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				8495805A1B326B3200F4EFCE /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		8495803B1B326B3200F4EFCE /* SMSLimmitOpation */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 8495805F1B326B3200F4EFCE /* Build configuration list for PBXNativeTarget "SMSLimmitOpation" */;
+			buildPhases = (
+				849580381B326B3200F4EFCE /* Sources */,
+				849580391B326B3200F4EFCE /* Frameworks */,
+				8495803A1B326B3200F4EFCE /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = SMSLimmitOpation;
+			productName = SMSLimmitOpation;
+			productReference = 8495803C1B326B3200F4EFCE /* SMSLimmitOpation.app */;
+			productType = "com.apple.product-type.application";
+		};
+		849580541B326B3200F4EFCE /* SMSLimmitOpationTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 849580621B326B3200F4EFCE /* Build configuration list for PBXNativeTarget "SMSLimmitOpationTests" */;
+			buildPhases = (
+				849580511B326B3200F4EFCE /* Sources */,
+				849580521B326B3200F4EFCE /* Frameworks */,
+				849580531B326B3200F4EFCE /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				849580571B326B3200F4EFCE /* PBXTargetDependency */,
+			);
+			name = SMSLimmitOpationTests;
+			productName = SMSLimmitOpationTests;
+			productReference = 849580551B326B3200F4EFCE /* SMSLimmitOpationTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		849580341B326B3200F4EFCE /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0630;
+				ORGANIZATIONNAME = zhangguobing;
+				TargetAttributes = {
+					8495803B1B326B3200F4EFCE = {
+						CreatedOnToolsVersion = 6.3.1;
+					};
+					849580541B326B3200F4EFCE = {
+						CreatedOnToolsVersion = 6.3.1;
+						TestTargetID = 8495803B1B326B3200F4EFCE;
+					};
+				};
+			};
+			buildConfigurationList = 849580371B326B3200F4EFCE /* Build configuration list for PBXProject "SMSLimmitOpation" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 849580331B326B3200F4EFCE;
+			productRefGroup = 8495803D1B326B3200F4EFCE /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				8495803B1B326B3200F4EFCE /* SMSLimmitOpation */,
+				849580541B326B3200F4EFCE /* SMSLimmitOpationTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		8495803A1B326B3200F4EFCE /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8495804B1B326B3200F4EFCE /* Main.storyboard in Resources */,
+				849580501B326B3200F4EFCE /* LaunchScreen.xib in Resources */,
+				8495804D1B326B3200F4EFCE /* Images.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		849580531B326B3200F4EFCE /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		849580381B326B3200F4EFCE /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				849580671B326C2C00F4EFCE /* ViewController1.m in Sources */,
+				849580481B326B3200F4EFCE /* ViewController.m in Sources */,
+				849580451B326B3200F4EFCE /* AppDelegate.m in Sources */,
+				8495806A1B326EC300F4EFCE /* MyControl.m in Sources */,
+				849580421B326B3200F4EFCE /* main.m in Sources */,
+				8495806D1B32955100F4EFCE /* GBverifyButton.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		849580511B326B3200F4EFCE /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8495805C1B326B3200F4EFCE /* SMSLimmitOpationTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		849580571B326B3200F4EFCE /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 8495803B1B326B3200F4EFCE /* SMSLimmitOpation */;
+			targetProxy = 849580561B326B3200F4EFCE /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		849580491B326B3200F4EFCE /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				8495804A1B326B3200F4EFCE /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		8495804E1B326B3200F4EFCE /* LaunchScreen.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				8495804F1B326B3200F4EFCE /* Base */,
+			);
+			name = LaunchScreen.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		8495805D1B326B3200F4EFCE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		8495805E1B326B3200F4EFCE /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		849580601B326B3200F4EFCE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = SMSLimmitOpation/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		849580611B326B3200F4EFCE /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = SMSLimmitOpation/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		849580631B326B3200F4EFCE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = SMSLimmitOpationTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/SMSLimmitOpation.app/SMSLimmitOpation";
+			};
+			name = Debug;
+		};
+		849580641B326B3200F4EFCE /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = SMSLimmitOpationTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/SMSLimmitOpation.app/SMSLimmitOpation";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		849580371B326B3200F4EFCE /* Build configuration list for PBXProject "SMSLimmitOpation" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8495805D1B326B3200F4EFCE /* Debug */,
+				8495805E1B326B3200F4EFCE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		8495805F1B326B3200F4EFCE /* Build configuration list for PBXNativeTarget "SMSLimmitOpation" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				849580601B326B3200F4EFCE /* Debug */,
+				849580611B326B3200F4EFCE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		849580621B326B3200F4EFCE /* Build configuration list for PBXNativeTarget "SMSLimmitOpationTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				849580631B326B3200F4EFCE /* Debug */,
+				849580641B326B3200F4EFCE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 849580341B326B3200F4EFCE /* Project object */;
+}

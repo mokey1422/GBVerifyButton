@@ -25,6 +25,7 @@
     [super viewDidLoad];
     self.view.backgroundColor=[UIColor whiteColor];
     _button=[[GBverifyButton alloc]initWithFrame:CGRectMake(100, 100, 200, 40) delegate:self Target:self Action:@selector(request)];
+    [self.view addSubview:_button];
     
    
     

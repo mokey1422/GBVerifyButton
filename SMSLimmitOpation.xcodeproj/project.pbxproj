@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		8417F2E91B5FE01200E8A2B7 /* GBverifyButton.m in Sources */ = {isa = PBXBuildFile; fileRef = 8417F2E81B5FE01200E8A2B7 /* GBverifyButton.m */; };
 		849580421B326B3200F4EFCE /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 849580411B326B3200F4EFCE /* main.m */; };
 		849580451B326B3200F4EFCE /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 849580441B326B3200F4EFCE /* AppDelegate.m */; };
 		849580481B326B3200F4EFCE /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 849580471B326B3200F4EFCE /* ViewController.m */; };
@@ -16,7 +17,6 @@
 		8495805C1B326B3200F4EFCE /* SMSLimmitOpationTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 8495805B1B326B3200F4EFCE /* SMSLimmitOpationTests.m */; };
 		849580671B326C2C00F4EFCE /* ViewController1.m in Sources */ = {isa = PBXBuildFile; fileRef = 849580661B326C2C00F4EFCE /* ViewController1.m */; };
 		8495806A1B326EC300F4EFCE /* MyControl.m in Sources */ = {isa = PBXBuildFile; fileRef = 849580691B326EC300F4EFCE /* MyControl.m */; };
-		8495806D1B32955100F4EFCE /* GBverifyButton.m in Sources */ = {isa = PBXBuildFile; fileRef = 8495806C1B32955100F4EFCE /* GBverifyButton.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -30,6 +30,8 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		8417F2E71B5FE01200E8A2B7 /* GBverifyButton.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GBverifyButton.h; sourceTree = "<group>"; };
+		8417F2E81B5FE01200E8A2B7 /* GBverifyButton.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GBverifyButton.m; sourceTree = "<group>"; };
 		8495803C1B326B3200F4EFCE /* SMSLimmitOpation.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SMSLimmitOpation.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		849580401B326B3200F4EFCE /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		849580411B326B3200F4EFCE /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
@@ -47,8 +49,6 @@
 		849580661B326C2C00F4EFCE /* ViewController1.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ViewController1.m; sourceTree = "<group>"; };
 		849580681B326EC300F4EFCE /* MyControl.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MyControl.h; sourceTree = "<group>"; };
 		849580691B326EC300F4EFCE /* MyControl.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MyControl.m; sourceTree = "<group>"; };
-		8495806B1B32955100F4EFCE /* GBverifyButton.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GBverifyButton.h; sourceTree = "<group>"; };
-		8495806C1B32955100F4EFCE /* GBverifyButton.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GBverifyButton.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -69,6 +69,15 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		8417F2E61B5FE01200E8A2B7 /* GBverifyButton */ = {
+			isa = PBXGroup;
+			children = (
+				8417F2E71B5FE01200E8A2B7 /* GBverifyButton.h */,
+				8417F2E81B5FE01200E8A2B7 /* GBverifyButton.m */,
+			);
+			path = GBverifyButton;
+			sourceTree = "<group>";
+		};
 		849580331B326B3200F4EFCE = {
 			isa = PBXGroup;
 			children = (
@@ -90,6 +99,7 @@
 		8495803E1B326B3200F4EFCE /* SMSLimmitOpation */ = {
 			isa = PBXGroup;
 			children = (
+				8417F2E61B5FE01200E8A2B7 /* GBverifyButton */,
 				849580681B326EC300F4EFCE /* MyControl.h */,
 				849580691B326EC300F4EFCE /* MyControl.m */,
 				849580431B326B3200F4EFCE /* AppDelegate.h */,
@@ -98,8 +108,6 @@
 				849580471B326B3200F4EFCE /* ViewController.m */,
 				849580651B326C2C00F4EFCE /* ViewController1.h */,
 				849580661B326C2C00F4EFCE /* ViewController1.m */,
-				8495806B1B32955100F4EFCE /* GBverifyButton.h */,
-				8495806C1B32955100F4EFCE /* GBverifyButton.m */,
 				849580491B326B3200F4EFCE /* Main.storyboard */,
 				8495804C1B326B3200F4EFCE /* Images.xcassets */,
 				8495804E1B326B3200F4EFCE /* LaunchScreen.xib */,
@@ -238,8 +246,8 @@
 				849580481B326B3200F4EFCE /* ViewController.m in Sources */,
 				849580451B326B3200F4EFCE /* AppDelegate.m in Sources */,
 				8495806A1B326EC300F4EFCE /* MyControl.m in Sources */,
+				8417F2E91B5FE01200E8A2B7 /* GBverifyButton.m in Sources */,
 				849580421B326B3200F4EFCE /* main.m in Sources */,
-				8495806D1B32955100F4EFCE /* GBverifyButton.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -434,6 +442,7 @@
 				849580611B326B3200F4EFCE /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		849580621B326B3200F4EFCE /* Build configuration list for PBXNativeTarget "SMSLimmitOpationTests" */ = {
 			isa = XCConfigurationList;
@@ -442,6 +451,7 @@
 				849580641B326B3200F4EFCE /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

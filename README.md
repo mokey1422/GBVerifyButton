@@ -12,5 +12,24 @@
 * 添加了获取验证码的时间间隔在60秒之内不能重复提交即使返回销毁之后再重新创建也不行，防止刷短信一条短信6分钱啊<br>
 * 听取了别人的意见为了防止内存泄露，暴露一个关闭定时器的接口，在离开这个界面的时候关闭定时器<br>
 
+#代码示例：<br>
+```
+- (void)viewDidLoad {
+    [super viewDidLoad];
+    self.view.backgroundColor=[UIColor whiteColor];
+    _button=[[GBverifyButton alloc]initWithFrame:CGRectMake(100, 100, 200, 40) delegate:self Target:self Action:@selector(request)];
+    [self.view addSubview:_button];
+    
+   
+    
+}
+#pragma mark-提交网络请求
+-(void)request{
+    
+    //请求成功开始跑秒
+    [_button startGetMessage];
+    
+}
+```
 #效果图展示：<br>
 ![image](https://github.com/mokey1422/gifResource/blob/master/sms.gif)
